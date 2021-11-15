@@ -35,15 +35,9 @@ In this repo I attempted to ...
 | **Feature** | **Description** |
 | :---: | :---: |
 | Name | Point name |
-| :---: | :---: |
 | City | Name of the city |
-| :---: | :---: |
 | Latitude  | Measurement of distance north or south of the Equator |
-| :---: | :---: |
 | Longitude | Measurement of distance east or west of the Equator |
-| :---: | :---: |
 | WalkScore | WalkScore API from |
-| :---: | :---: |
 | Pedestrian First | Pedestrian First API from |
-| :---: | :---: |
 | Weather | Weater API from |
