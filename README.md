@@ -34,7 +34,7 @@ This project aims to understand the Saudi urban conditions better by addressing 
 5. **Saudi Walk Score**
 
 ## Dataset Description
-The analysis was done on an aggregated dataset from different sources.
+The analysis was done with a custom data set by collecting a diverse set of cities data and multiple API sources to train a machine learning model to predict the walk score.
 Data sources:
 - **Walk Score API:** returns a walk score, transit score and bike score for any location.
 - **Google Elevation API:** returns elevation data for all locations on the surface of the earth.
