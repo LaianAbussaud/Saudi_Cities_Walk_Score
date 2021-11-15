@@ -9,6 +9,7 @@
 3. Research Questions
 4. Notebook Description
 5. Dataset Description
+6. Notes
 
 ## Overview
 In this repo I attempted to ...
@@ -24,15 +25,21 @@ In this repo I attempted to ...
 - What are the factors that are most contributing to the Saudi walk score?
 
 ## Notebooks Descriptions
-1.
-2.
-3.
-4.
-5.
+1. **Data_Collection**
+2. **Data_Preperation**
+3. **EDA** (Exploratory Data Analysis)
+4. **ML_Modeling** (Machine Learning Modeling)
+5. **Saudi Walk Score**
 
 ## Dataset Description
+The analysis was done on an aggregated dataset from different resources including:
+- Coordinates (latitude, longitude) of different Saudi cities
+- WalkScore API's
+- Pedestrian First API's
+- Weather API's
 
-| **Feature** | **Description** |
+The dataset contains the following variables:
+| **Variable** | **Description** |
 | :---: | :---: |
 | Name | Point name |
 | City | Name of the city |
@@ -41,3 +48,7 @@ In this repo I attempted to ...
 | WalkScore | WalkScore API from |
 | Pedestrian First | Pedestrian First API from |
 | Weather | Weater API from |
+You can access the dataset directly from the data folder in this repository.
+
+## Notes
+This project is a work in progress as I add more relevant data to the dataset and become a better spatial data scientist
