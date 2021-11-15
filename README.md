@@ -9,12 +9,12 @@
 1. Overview
 2. Objectives
 3. Research Questions
-4. Notebook Description
+4. Notebooks Description
 5. Dataset Description
 6. Notes
 
 ## Overview
-In this repo I attempted to ...
+This project aims to understand the Saudi urban conditions better by addressing the walkabilty conditions in Saudi cities. The choosen 4 Saudi cities are (Riyadh, Jeddah, Mecca, Al Khobar).
 
 ## Objectives
 - To analyze and visualize Saudi cities walkability conditions
@@ -36,6 +36,7 @@ In this repo I attempted to ...
 ## Dataset Description
 The analysis was done on an aggregated dataset from different resources including:
 - Coordinates (latitude, longitude) of different Saudi cities
+- OSM data
 - WalkScore API's
 - Pedestrian First API's
 - Weather API's
@@ -50,6 +51,7 @@ The dataset contains the following variables:
 | WalkScore | WalkScore API from |
 | Pedestrian First | Pedestrian First API from |
 | Weather | Weater API from |
+
 You can access the dataset directly from the data folder in this repository.
 
 ## Notes
