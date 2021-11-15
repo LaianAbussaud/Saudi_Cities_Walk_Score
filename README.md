@@ -35,6 +35,7 @@ This project aims to understand the Saudi urban conditions better by addressing 
 
 ## Dataset Description
 The analysis was done with a custom data set by collecting a diverse set of cities data and multiple API sources to train a machine learning model to predict the walk score.
+
 Data sources:
 - **Walk Score API:** returns a walk score, transit score and bike score for any location. (only used walk score)
 - **OSMnx:** Python package that lets you download spatial geometries and model, project, visualize, and analyze street networks from OpenStreetMap’s APIs.
