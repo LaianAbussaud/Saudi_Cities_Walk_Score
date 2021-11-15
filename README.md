@@ -3,7 +3,7 @@
 ### Author: Laian Abussaud
 ### Date: Novemeber 16th, 2021
 
-# Table of content
+# Contents
 1. Overview
 2. Objectives
 3. Research Questions
@@ -34,4 +34,16 @@ In this repo I attempted to ...
 
 | **Feature** | **Description** |
 | :---: | :---: |
-| name | List all new or modified files |
+| Name | Point name |
+| :---: | :---: |
+| City | Name of the city |
+| :---: | :---: |
+| Latitude  | Measurement of distance north or south of the Equator |
+| :---: | :---: |
+| Longitude | Measurement of distance east or west of the Equator |
+| :---: | :---: |
+| WalkScore | WalkScore API from |
+| :---: | :---: |
+| Pedestrian First | Pedestrian First API from |
+| :---: | :---: |
+| Weather | Weater API from |
