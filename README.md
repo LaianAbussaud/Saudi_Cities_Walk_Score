@@ -1,6 +1,8 @@
 # Saudi Cities Walk Score
 #### Purpose: Misk Academy Data Science Immersive Bootcamp 2021 Capstone Project
 #### Author: Laian Abussaud
+#### Instructor: Rick Scavetta
+#### Teaching Assistant: Lujain Felemban
 #### Date: Novemeber 16th, 2021
 
 ## Contents
