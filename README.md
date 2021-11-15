@@ -6,18 +6,22 @@
 # Table of content
 1. Overview
 2. Objectives
-3. Notebook Description
-4. Dataset Description
-5. 
-
+3. Research Questions
+4. Notebook Description
+5. Dataset Description
 
 # Overview
 In this repo I attempted to ...
 
 # Objectives
-- To
-- To
-- To
+- To analyze and visualize Saudi cities walkability conditions
+- To provide a comprehensive dataset containing all necessary data
+- To create a walk score measure that is suitable for the Saudi context
+
+# Research Questions
+- Are Saudi cities walkable? Can most daily errands be completed on foot?
+- Which Saudi city in the analysis is the most walkable?
+- What are the factors that are most contributing to the Saudi walk score?
 
 # Notebooks Descriptions
 1.
@@ -29,5 +33,5 @@ In this repo I attempted to ...
 # Dataset Description
 
 | **Feature** | **Description** |
-| --- | --- |
+| :---: | :---: |
 | name | List all new or modified files |
