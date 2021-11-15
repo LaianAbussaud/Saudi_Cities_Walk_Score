@@ -14,12 +14,12 @@
 6. Notes
 
 ## Overview
-This project aims to understand the Saudi urban conditions better by addressing the walkabilty conditions in Saudi cities. The choosen 4 Saudi cities are (Riyadh, Jeddah, Mecca, Al Khobar).
+This project aims to understand the Saudi urban conditions better by addressing the walkaing conditions in Saudi cities. The choosen 4 Saudi cities are (Riyadh, Jeddah, Mecca, Al Khobar).
 
 ## Objectives
 - To analyze and visualize Saudi cities walkability conditions
 - To provide a comprehensive dataset containing all necessary data
-- To create a walk score measure that is suitable for the Saudi context
+- To create a walk score measure index that is suitable for the Saudi context
 
 ## Research Questions
 - Are Saudi cities walkable? Can most daily errands be completed on foot?
@@ -36,23 +36,54 @@ This project aims to understand the Saudi urban conditions better by addressing 
 ## Dataset Description
 The analysis was done with a custom data set by collecting a diverse set of cities data and multiple API sources to train a machine learning model to predict the walk score.
 Data sources:
-- **Walk Score API:** returns a walk score, transit score and bike score for any location.
-- **Google Elevation API:** returns elevation data for all locations on the surface of the earth.
+- **Walk Score API:** returns a walk score, transit score and bike score for any location. (only used walk score)
+- **OSMnx:** Python package that lets you download spatial geometries and model, project, visualize, and analyze street networks from OpenStreetMap’s APIs.
 - **Google Places API:** returns information about places. Places are defined within this API as establishments, geographic locations, or prominent points of interest.
 - **Google Reverse Geocoding API:** reverse geocoding is the process of converting geographic coordinates into a human-readable address.
-- **Weather Company Data:** returns the current weather conditions for a geolocation.
+- **OpenWeather API:** returns the current weather conditions for a geolocation.
 - **LocationIQ:** Nearby Points of Interest (PoI) API returns specified PoIs or places around a given coordinate.
-- **OSMnx:** Python package that lets you download spatial geometries and model, project, visualize, and analyze street networks from OpenStreetMap’s APIs.
 
-- Seattle City Zoning: Zoning districts specify a category of use (e.g., single-family residential, multifamily residential, commercial, industrial, etc.)
-- Seattle Census Data: Provides population and area in square miles for census tracts within Census Tracts and Geographic Identifiers
-- U.S. Census Geocoder API: For a given geolocation, the API returns Census tracts and unique Geographic Identifiers. This was crucial for correctly merging in Zoning and Census data.
+Data categories:
+- Geolocations:
+  - Latitude
+  - Logitude
+  - City
 
-- Coordinates (latitude, longitude) of different Saudi cities
-- OSM data
-- WalkScore API's
-- Pedestrian First API's
-- Weather API's
+- Amenity-based:
+  - Walk score
+  - Amenities (all within 1000m radius)
+    - Supermarket count
+    - School count
+    - Hospital count
+    - Clinic count
+    - Pharmacy count
+    - Restaurant count
+    - Cafe count
+    - Park count
+
+- Census-based:
+  - Zoning category
+  - Population
+  - Population density
+
+- Weather-based:
+  - Temperature
+  - Temperature time stamp
+  - Temperature week day
+  - UV index
+
+- City Street Network Structure:
+  - Intersection count
+  - Circuity average
+  - Street lenght average
+  - Street per node average
+
+- Distance-based:
+  - Closest highway
+  - Closest primary road
+  - Closest secondary road
+  - Closest residentail road
+  - Closest commercial zone
 
 The dataset contains the following features:
 | **Features** | **Description** |
@@ -63,10 +94,9 @@ The dataset contains the following features:
 | city | point corresponding city |
 | walk_score | from WalkScore API https://www.walkscore.com/professional/api.php |
 | amenities_count | different amenities count from OpenStreetMap (OSM) API https://www.openstreetmap.org/#map=5/25.245/43.088 |
-| elevation | point elevation from GoogleMaps API |
-| housing_units | number of housing units |
-| pop_density | city's population density |
+| zip_code | zoning category |
 | pop | city's population |
+| pop_density | city's population density |
 | temp | city's temperature |
 | time_stamp | temperature time stamp |
 | week_day | temperature week day  |
