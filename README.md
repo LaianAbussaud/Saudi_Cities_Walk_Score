@@ -86,7 +86,6 @@ Data categories:
   - Closest residentail road
   - Closest commercial zone
 
-The dataset contains the following features:
 | **Features** | **Description** |
 | :---: | :---: |
 | lat  | latitude: measurement of distance north or south of the Equator |
@@ -102,8 +101,6 @@ The dataset contains the following features:
 | time_stamp | temperature time stamp |
 | week_day | temperature week day  |
 | uv_index | UV index |
-|  |  |
-|  |  |
 
 ## Notes
 This project is a work in progress as I add more relevant data to the dataset and become a better spatial data scientist
