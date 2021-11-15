@@ -24,7 +24,7 @@ This project aims to understand the Saudi urban conditions better by addressing 
 ## Research Questions
 - Are Saudi cities walkable? Can most daily errands be completed on foot?
 - Which Saudi city in the analysis is the most walkable?
-- What are the factors that are most contributing to the Saudi walk score?
+- What features are important to build a Saudi city walk score?
 
 ## Notebooks Descriptions
 1. **Data_Collection**
