@@ -59,7 +59,7 @@ The dataset contains the following features:
 | :---: | :---: |
 | lat  | latitude: measurement of distance north or south of the Equator |
 | lon | longitude: measurement of distance east or west of the Equator |
-| point | (latitude, lonitude) |
+| point | (latitude, longitude) |
 | city | point corresponding city |
 | walk_score | from WalkScore API https://www.walkscore.com/professional/api.php |
 | amenities_count | different amenities count from OpenStreetMap (OSM) API https://www.openstreetmap.org/#map=5/25.245/43.088 |
@@ -73,8 +73,6 @@ The dataset contains the following features:
 | uv_index | UV index |
 |  |  |
 |  |  |
-
-You can access the dataset directly from the data folder in this repository.
 
 ## Notes
 This project is a work in progress as I add more relevant data to the dataset and become a better spatial data scientist
