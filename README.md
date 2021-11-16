@@ -14,7 +14,7 @@
 6. Notes
 
 ## Overview
-This project aims to understand the Saudi urban conditions better by addressing the walkaing conditions in Saudi cities. The choosen 4 Saudi cities are (Riyadh, Jeddah, Mecca, Al Khobar).
+This project aims to understand the Saudi urban conditions better by addressing the walkaing conditions in Saudi cities. The choosen 4 Saudi cities are (Riyadh, Jeddah, Al Khobar).
 
 ## Objectives
 - To analyze and visualize Saudi cities walkability conditions
