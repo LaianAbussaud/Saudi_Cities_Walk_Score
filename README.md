@@ -75,9 +75,9 @@ Data categories:
 
 - City Street Network Structure:
   - Intersection count
+  - Street per node average
   - Circuity average
   - Street lenght average
-  - Street per node average
 
 - Distance-based:
   - Closest highway
